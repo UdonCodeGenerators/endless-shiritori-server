@@ -2,22 +2,16 @@
 
 ## 開発用メモ
 
-### パッケージのインストール
+dockerを用いています．
 
-一斉にインストールするとき
+サーバー起動
 
 ```bash
-pipenv install
+./start.sh
 ```
 
-パッケージをインストールするとき
+サーバーを停止
 
 ```bash
-pipenv install [package_name]
-```
-
-### サーバー起動方法
-
-```bash
-pipenv run uvicorn main:app --reload
+./stop.sh
 ```
